@@ -24,6 +24,7 @@ interface User {
 })
 export class UserComponent {
   @Input({ required: true }) user!: User;
+  @Input ({required:true}) selected!:boolean;
   // @Input({ required: true }) user!: {
   //   id: string;
   //   avatar: string;
