@@ -5,8 +5,8 @@ import { Component, input, Input } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './tasks.component.html',
-  styleUrl: './tasks.component.css'
+  styleUrl: './tasks.component.css',
 })
 export class TasksComponent {
-@Input ({required:true}) name!:string;
+  @Input() name?: string;
 }
