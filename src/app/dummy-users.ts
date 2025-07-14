@@ -11,12 +11,12 @@ export const DUMMY_USERS = [
   },
   {
     id: 'u3',
-    name: 'Marcus Johnson',
+    name: 'farzad Erfani',
     avatar: 'user-3.jpg',
   },
   {
     id: 'u4',
-    name: 'David Miller',
+    name: 'Ashkan Soleimani',
     avatar: 'user-4.jpg',
   },
   {
